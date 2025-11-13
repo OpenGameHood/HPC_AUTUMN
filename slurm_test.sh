@@ -5,6 +5,9 @@
 #SBATCH --time=00:01:00
 #SBATCH --partition=rome
 
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --mail-user=foo@bar.bobels
+
 echo "who am i"
 whoami
 echo
